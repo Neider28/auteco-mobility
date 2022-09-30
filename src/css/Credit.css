@@ -1,0 +1,181 @@
+.Credit-container {
+  width: 100%;
+  height: auto;
+  padding: 50px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--light-color);
+}
+
+.credit-data--content {
+  width: 100%;
+  height: auto;
+}
+
+.credit-data--content h2 {
+  font-size: var(--bg-m);
+  font-weight: 600;
+  color: var(--secondary-color);
+  text-align: center;
+}
+
+.credit-data--content .credit-data--card {
+  width: 80%;
+  min-width: 260px;
+  height: auto;
+  margin: 0 auto; 
+  margin-top: 30px;
+  padding: 15px 0px;
+  display: grid;
+  place-items: center;
+  border: solid 1px #9999994a;
+  border-radius: 5px;
+  box-shadow: 0 8px 10px rgba(17, 17, 17, 0.151);
+}
+
+.credit-data--card span {
+  margin-bottom: 20px;
+  font-size: var(--md);
+  font-weight: 600;
+  color: #201e1c;
+  text-align: center;
+}
+
+.credit-data--card form {
+  display: flex;
+  flex-direction: column;
+}
+
+.credit-data--card form label {
+  margin-bottom: 10px;
+  font-size: var(--md);
+  font-weight: 600;
+  color: #201e1c;
+  text-align: center;
+}
+
+.credit-data--card form select, .credit-data--card form input {
+  width: 230px;
+  height: 35px;
+  margin-bottom: 15px;
+  border: var(--primary-color) solid 1px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  color: #201e1c;
+  outline: none;
+}
+
+.credit-data--card form input {
+  padding: 5px;
+}
+
+.credit-data-autorization--card {
+  width: 80%;
+  height: auto;
+  margin: 0 auto; 
+  margin-top: 30px;
+  padding: 15px 0px;
+  display: grid;
+  place-items: center;
+}
+
+.credit-data-autorization--card form {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.credit-data-autorization--card form a {
+  color: var(--secondary-color);
+}
+
+#autorization {
+  width: 15px;
+  height: 15px;
+}
+
+#autorization-text {
+  width: 90%;
+  height: auto;
+  margin-left: 10px;
+  font-size: var(--sm);
+  font-weight: 600;
+  color: var(--secondary-color);
+  text-align: left;
+}
+
+.button-data {
+  width: 90%;
+  height: auto;
+  margin-top: 35px;
+  padding: 10px 6px;
+  text-align: center;
+  font-size: var(--md);
+  font-weight: bolder;
+  color: var(--secondary-color);
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  border-style: none;
+}
+
+.button-data:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+@media (min-width: 600px) {
+  .credit-data--content h2 {
+    font-size: var(--bg);
+  }
+
+  .credit-data--content .credit-data--card {
+    width: 450px;
+    padding: 35px 0px;
+  }
+
+  .credit-data--card span {
+    font-size: var(--bg-m);
+  }
+  
+  .credit-data--card form label {
+    margin-bottom: 25px;
+    font-size: var(--bg-m);
+  }
+  
+  .credit-data--card form select, .credit-data--card form input {
+    width: 350px;
+    height: 45px;
+    margin-bottom: 20px;
+    font-size: var(--sm-m);
+  }
+  
+  .credit-data--card form input {
+    padding: 5px;
+  }
+
+  #autorization {
+    width: 20px;
+    height: 20px;
+  }
+
+  #autorization-text {
+    font-size: var(--sm-m);
+  }
+
+  .button-data {
+    width: 370px;
+    height: 55px;
+  }
+}
+
+@media (min-width: 1024px) {
+  #autorization-text {
+    width: 520px;
+    text-align: justify;
+  }
+}

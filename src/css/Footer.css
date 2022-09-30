@@ -1,0 +1,83 @@
+footer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+footer .Information-container {
+  padding: 80px 20px;
+  background-color: var(--light-color);
+}
+
+footer h2 {
+  font-size: var(--bg);
+  font-weight: 700;
+  color: var(--secondary-color);
+  margin-bottom: 25px;
+}
+
+.Contact-container {
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.Contact-container h3 {
+  font-size: var(--md);
+  font-weight: 600;
+  color: var(--secondary-color);
+}
+
+.Contact-container p {
+  width: 100%;
+  height: auto;
+  padding-bottom: 10px;
+  font-size: var(--sm);
+  font-weight: 600;
+  color: var(--secondary-color);
+  border-bottom: 0.5px solid var(--primary-color);
+  margin-bottom: 20px;
+}
+
+.Social-container {
+  width: 100%;
+  height: auto;
+}
+
+.Social-icons {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 30px);
+  gap: 10px;
+}
+
+.Social-icons span {
+  font-size: var(--bg);
+  color: var(--primary-color);
+}
+
+.Signature-container {
+  width: 100%;
+  padding: 25px 10px;
+  font-size: 0.7rem;
+  color: var(--light-color);
+  text-align: center;
+  background-color: var(--secondary-color);
+}
+
+@media (min-width: 730px) {
+  footer .Information-container {
+    display: grid;
+    grid-template-columns: 350px 250px;
+    gap: 30px;
+    place-content: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  .Social-icons span:hover {
+    color: var(--secondary-color);
+  }
+}

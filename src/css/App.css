@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+  --primary-color: #F2AF29;
+  --secondary-color: #111010;
+  --terciary-color: #141414;
+  --quaternary-color: #2e9362;
+  --quinary-color: #f30606;
+  --light-color: #f8f7f1;
+  --bg: 1.8rem;
+  --bg-m: 1.5rem;
+  --md: 1.2rem;
+  --sm-m: 1.1rem;
+  --sm: 1rem;
+  --sm-s: 0.8rem;
+}

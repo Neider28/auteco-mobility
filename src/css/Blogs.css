@@ -1,0 +1,15 @@
+.Blogs-container {
+  width: 100%;
+  height: auto;
+  display: grid;
+  place-items: center;
+  background-color: var(--light-color);
+}
+
+.Blog-list {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-rows: auto;
+  place-content: center;
+}
