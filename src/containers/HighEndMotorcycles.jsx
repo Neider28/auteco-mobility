@@ -2,49 +2,13 @@ import React from 'react';
 import { Motorcycle } from '../components/Motorcycle.jsx';
 import { Modal } from '../components/Modal.jsx';
 import { AppContext } from '../context/AppContext.js';
+import data from '../data.js';
 import '../css/Motorcycles.css';
 
 const HighEndMotorcycles = () => {
   const { openModal } = React.useContext(AppContext);
 
-  const highEnd = [
-    {
-      line: 'BENELLI',
-      url_image: 'https://i.ibb.co/xg7chcY/altagama1.png',
-      name: 'BENELLI TRK 251',
-      price: '18.499.000',
-    },
-    {
-      line: 'VICTORY',
-      url_image: 'https://i.ibb.co/VNSR9pH/deportiva6.png',
-      name: 'VENOM 400',
-      price: '19.490.000',
-    },
-    {
-      line: 'BENELLI',
-      url_image: 'https://i.ibb.co/xqfqnGF/altagama3.png',
-      name: 'BENELLI IMPERIALE 400',
-      price: '20.990.000',
-    },
-    {
-      line: 'BENELLI',
-      url_image: 'https://i.ibb.co/p4D5CF4/altagama4.png',
-      name: 'BENELLI LEONCINO 500',
-      price: '31.499.0000',
-    },
-    {
-      line: 'KAWASAKI',
-      url_image: 'https://i.ibb.co/2KvbR6m/deportiva4.png',
-      name: 'NINJA 400',
-      price: '31.990.000',
-    },
-    {
-      line: 'KAWASAKI',
-      url_image: 'https://i.ibb.co/vBbqQd0/altagama6.png',
-      name: 'Z400',
-      price: '31.990.000',
-    },
-  ];
+  const highEnd = data.HighEndMotorcycles;
 
   return (
     <section className="Motos-container">
@@ -57,6 +21,17 @@ const HighEndMotorcycles = () => {
             url_image={item.url_image}
             name={item.name}
             price={item.price}
+            motor={item.engine}
+            cil={item.cylinder}
+            pm={item.maximum_power}
+            refg={item.refrigeration}
+            trns={item.transmission}
+            comb={item.gas}
+            bk_b={item.back_brake}
+            bk_f={item.front_brake}
+            wgh={item.weight}
+            img1={item.img1}
+            img2={item.img2}
           />
         ))}
       </div>

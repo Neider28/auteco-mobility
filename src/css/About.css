@@ -99,10 +99,6 @@
   width: 240px;
   height: 240px;
   margin: 0 auto;
-  background-image: url("../assets/images/philosophy.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 
 .About-container .purpose-box {
@@ -147,11 +143,7 @@
 
 .About-container .business-box .business-image {
   width: 100%;
-  height: 400px;
-  background-image: url("../assets/images/business.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
+  height: 100%;
 }
 
 @media (min-width: 600px) {
@@ -165,8 +157,8 @@
   }
 
   .About-container .business-box .business-image {
-    width: 100%;
-    height: 800px;
+    width: 80%;
+    height: 100%;
   }
 
   .About-container h2 {

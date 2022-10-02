@@ -5,7 +5,23 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { AppContext } from '../context/AppContext.js';
 import '../css/Motorcycle.css';
 
-const Motorcycle = ({ line, url_image, name, price, description }) => {
+const Motorcycle = ({
+  line,
+  url_image,
+  name,
+  price,
+  motor,
+  cil,
+  pm,
+  refg,
+  trns,
+  comb,
+  bk_b,
+  bk_f,
+  wgh,
+  img1,
+  img2,
+}) => {
   const { setShowDetail } = React.useContext(AppContext);
   const navigate = useNavigate();
 
@@ -14,7 +30,17 @@ const Motorcycle = ({ line, url_image, name, price, description }) => {
     setShowDetail({
       name: name,
       price: price,
-      description: description,
+      motor: motor,
+      cil: cil,
+      pm: pm,
+      refg: refg,
+      trns: trns,
+      comb: comb,
+      bk_b: bk_b,
+      bk_f: bk_f,
+      wgh: wgh,
+      img1: img1,
+      img2: img2,
     });
   };
 

@@ -8,6 +8,8 @@ import {
   faStar,
   faBusinessTime,
 } from '@fortawesome/free-solid-svg-icons';
+import philosophy from '../assets/images/philosophy.png';
+import business from '../assets/images/business.png';
 import '../css/About.css';
 
 const About = () => {
@@ -91,7 +93,7 @@ const About = () => {
             ofrecer un mejor servicio a nuestros clientes.
           </p>
         </div>
-        <div className="philosophy-image"></div>
+        <img className="philosophy-image" src={philosophy} alt="philosophy" />
       </div>
       <div className="purpose-box">
         <h2>
@@ -112,7 +114,7 @@ const About = () => {
           </span>
           Modelo de negocio
         </h2>
-        <div className="business-image"></div>
+        <img className="business-image" src={business} alt="business" />
       </div>
     </section>
   );

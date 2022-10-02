@@ -6,7 +6,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url('https://www.revistaturbo.com/sites/default/files/tvs_raider_125_3.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://lamoto.com.ar/wp-content/uploads/2022/05/Benelli-180S-roja-estatica.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

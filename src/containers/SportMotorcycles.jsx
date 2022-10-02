@@ -2,49 +2,13 @@ import React from 'react';
 import { Motorcycle } from '../components/Motorcycle.jsx';
 import { Modal } from '../components/Modal.jsx';
 import { AppContext } from '../context/AppContext.js';
+import data from '../data.js';
 import '../css/Motorcycles.css';
 
 const SportMotorcycles = () => {
   const { openModal } = React.useContext(AppContext);
 
-  const sport = [
-    {
-      line: 'VICTORY',
-      url_image: 'https://i.ibb.co/k4NVjy6/urbana6.png',
-      name: 'SWITCH 150',
-      price: '6.799.000',
-    },
-    {
-      line: 'BENELLI',
-      url_image: ' https://i.ibb.co/vPwRyfy/deportiva2.png',
-      name: 'BENELLI 180S',
-      price: '10.299.000',
-    },
-    {
-      line: 'BENELLI',
-      url_image: 'https://i.ibb.co/GvjpsPx/deportiva3.png',
-      name: 'BENELLI 180S PRO X',
-      price: '10.799.000',
-    },
-    {
-      line: 'KAWASAKI',
-      url_image: 'https://i.ibb.co/2KvbR6m/deportiva4.png',
-      name: 'NINJA 400',
-      price: '31.990.000',
-    },
-    {
-      line: 'BENELLI',
-      url_image: 'https://i.ibb.co/yFqnCc1/deportiva5.png',
-      name: 'BENELLI TNT 25N',
-      price: '12.499.000',
-    },
-    {
-      line: 'VICTORY',
-      url_image: 'https://i.ibb.co/VNSR9pH/deportiva6.png',
-      name: 'VENOM 400',
-      price: '19.490.000',
-    },
-  ];
+  const sport = data.SportMotorcycles;
 
   return (
     <section className="Motos-container">
@@ -57,6 +21,17 @@ const SportMotorcycles = () => {
             url_image={item.url_image}
             name={item.name}
             price={item.price}
+            motor={item.engine}
+            cil={item.cylinder}
+            pm={item.maximum_power}
+            refg={item.refrigeration}
+            trns={item.transmission}
+            comb={item.gas}
+            bk_b={item.back_brake}
+            bk_f={item.front_brake}
+            wgh={item.weight}
+            img1={item.img1}
+            img2={item.img2}
           />
         ))}
       </div>

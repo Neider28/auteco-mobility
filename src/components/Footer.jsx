@@ -26,15 +26,24 @@ const Footer = () => {
         <section className="Social-container">
           <h2>Encuéntranos en</h2>
           <div className="Social-icons">
-            <span>
-              <FontAwesomeIcon icon={faFacebook} />
-            </span>
-            <span>
-              <FontAwesomeIcon icon={faTwitter} />
-            </span>
-            <span>
-              <FontAwesomeIcon icon={faYoutube} />
-            </span>
+            <a href="https://www.facebook.com/autecomotos/" target="_blank">
+              <span>
+                <FontAwesomeIcon icon={faFacebook} />
+              </span>
+            </a>
+            <a href="https://twitter.com/autecomotos" target="_blank">
+              <span>
+                <FontAwesomeIcon icon={faTwitter} />
+              </span>
+            </a>
+            <a
+              href="https://www.youtube.com/user/AutecoMotocicletas"
+              target="_blank"
+            >
+              <span>
+                <FontAwesomeIcon icon={faYoutube} />
+              </span>
+            </a>
           </div>
         </section>
       </div>
