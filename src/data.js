@@ -147,6 +147,8 @@ export default {
       line: 'VICTORY',
       url_image: 'https://i.ibb.co/k4NVjy6/urbana6.png',
       name: 'SWITCH 150',
+      description:
+        'Su potente motor y su pequeño tamaño te harán disfrutar sin límites. Una pequeña gigante con tantos atributos que la destacan en el mercado, hará que marques la diferencia.',
       price: '6.799.000',
       engine: '4 Tiempos, Monocilíndrico',
       cylinder: '149,2 CC',
@@ -164,6 +166,8 @@ export default {
       line: 'BENELLI',
       url_image: ' https://i.ibb.co/vPwRyfy/deportiva2.png',
       name: 'BENELLI 180S',
+      description:
+        'Te bastará una mirada a la agresiva postura de la nueva Benelli 180S y una minuciosa inspección a sus componentes para darte cuenta del diseño italiano que lleva en su sangre.',
       price: '10.299.000',
       engine: 'Monocilíndrico 4 tiempos 4 válvulas SOHC',
       cylinder: '175 CC',
@@ -181,6 +185,8 @@ export default {
       line: 'BENELLI',
       url_image: 'https://i.ibb.co/GvjpsPx/deportiva3.png',
       name: 'BENELLI 180S PRO X',
+      description:
+        'Con la nueva edición limitada de la 180 S PRO X bastará con una mirada a la agresiva postura de la nueva Benelli 180S y una minuciosa inspección a sus componentes para darte cuenta del diseño italiano que lleva en su sangre.',
       price: '10.799.000',
       engine: 'Monocilíndrico 4 tiempos 4 válvulas SOHC',
       cylinder: '175 CC',
@@ -198,6 +204,7 @@ export default {
       line: 'KAWASAKI',
       url_image: 'https://i.ibb.co/2KvbR6m/deportiva4.png',
       name: 'NINJA 400',
+      description: 'Nacida para la calle inspirada para la pista.',
       price: '31.990.000',
       engine: '4 tiempos, bicilíndrico en paralelo',
       cylinder: '399 cc',
@@ -215,6 +222,8 @@ export default {
       line: 'BENELLI',
       url_image: 'https://i.ibb.co/yFqnCc1/deportiva5.png',
       name: 'BENELLI TNT 25N',
+      description:
+        'Una naked que resalta en diseño italiano, por el amor a los detalles. Está impulsada por un ligero y potente motor monocilíndrico de cuatro tiempos de 249 cc.',
       price: '12.499.000',
       engine: 'Monocilíndrico 4 tiempos 4 válvulas DOHC',
       cylinder: '249 cc',
@@ -232,6 +241,8 @@ export default {
       line: 'VICTORY',
       url_image: 'https://i.ibb.co/VNSR9pH/deportiva6.png',
       name: 'VENOM 400',
+      description:
+        'Esta línea representa lo mejor de lo mejor de Victory. Así es que cada vez que veas el emblema BlackLine en una de nuestras motocicletas, sabrás que estás frente una digna representante de una serie de motos inspirada en la excelencia.',
       price: '19.490.000',
       engine: 'Bicilíndrico en paralelo, 4t SOHC, 8 válvulas',
       cylinder: '378 cc',
@@ -251,6 +262,8 @@ export default {
       line: 'VICTORY',
       url_image: 'https://i.ibb.co/DDmc1s2/urbana1.png',
       name: 'ONE ST 110',
+      description:
+        'Una moto que no le hace falta nada, reuniendo tecnologías que te brindan comodidad en todo momento para que te enamores de ella.',
       price: '4.399.000',
       engine: '4 tiempos, monocilíndrico',
       cylinder: '109 cc',
@@ -268,6 +281,8 @@ export default {
       line: 'VICTORY',
       url_image: 'https://i.ibb.co/pvPTyT5/urbana2.png',
       name: 'BOMBER 125',
+      description:
+        'Las mejores tecnologías en motores son implementadas en este modelo, siendo así también responsables con el medio ambiente.',
       price: '4.999.000',
       engine: '4 Tiempos, Monocilíndrico',
       cylinder: '124 CC',
@@ -285,6 +300,8 @@ export default {
       line: 'VICTORY',
       url_image: 'https://i.ibb.co/fr0JY7r/urbana3.png',
       name: 'BOMBER 125 SPORT',
+      description:
+        'Su potencia máxima es de 10,7 HP @ 9000 rpm, esto la caracteriza como la Café Racer 125 más potente de Colombia.',
       price: '5.349.000',
       engine: '4 Tiempos, Monocilíndrico',
       cylinder: '124 CC',
@@ -302,6 +319,8 @@ export default {
       line: 'VICTORY',
       url_image: 'https://i.ibb.co/d48hdXG/urbana4.png',
       name: 'BOMBER 150',
+      description:
+        'Un estilo definido evocando las mejores épocas del motociclismo pero con tecnologías a la vanguardia.',
       price: '5.999.000',
       engine: '4 Tiempos, Monocilíndrico',
       cylinder: '149,4 CC',
@@ -319,6 +338,8 @@ export default {
       line: 'VICTORY',
       url_image: 'https://i.ibb.co/WGpmDZD/urbana5.png',
       name: 'NITRO 125 PRO',
+      description:
+        'Transportarte en tu día a día nunca había sido tan cómodo, como cuando te mueves en una Nitro 125. Sabemos que los tiempos han cambiado y que la era digital es hoy, por eso traemos un tablero digital impactante.',
       price: '6.399.000',
       engine: '4 Tiempos, Monocilíndrico',
       cylinder: '124,8 CC',
@@ -336,6 +357,8 @@ export default {
       line: 'VICTORY',
       url_image: 'https://i.ibb.co/k4NVjy6/urbana6.png',
       name: 'SWITCH 150',
+      description:
+        'Su potente motor y su pequeño tamaño te harán disfrutar sin límites. Una pequeña gigante con tantos atributos que la destacan en el mercado, hará que marques la diferencia.',
       price: '6.799.000',
       engine: '4 Tiempos, Monocilíndrico',
       cylinder: '149,2 CC',
@@ -355,6 +378,8 @@ export default {
       line: 'BENELLI',
       url_image: 'https://i.ibb.co/xg7chcY/altagama1.png',
       name: 'BENELLI TRK 251',
+      description:
+        'La mejor moto para iniciarse en el mundo touring gracias a su peso ligero y su facilidad en la conducción. Una distribución de pesos para sortear todo tipo de terrenos sin ningún problema.',
       price: '18.499.000',
       engine: 'Monocilíndrico 4 tiempos 4 válvulas DOHC',
       cylinder: '249 cc',
@@ -372,6 +397,8 @@ export default {
       line: 'VICTORY',
       url_image: 'https://i.ibb.co/VNSR9pH/deportiva6.png',
       name: 'VENOM 400',
+      description:
+        'Esta línea representa lo mejor de lo mejor de Victory. Así es que cada vez que veas el emblema BlackLine en una de nuestras motocicletas, sabrás que estás frente una digna representante de una serie de motos inspirada en la excelencia.',
       price: '19.490.000',
       engine: 'Bicilíndrico en paralelo, 4t SOHC, 8 válvulas',
       cylinder: '378 cc',
@@ -389,6 +416,8 @@ export default {
       line: 'BENELLI',
       url_image: 'https://i.ibb.co/xqfqnGF/altagama3.png',
       name: 'BENELLI IMPERIALE 400',
+      description:
+        'Un clásico que revive los más de 100 años de historia de Benelli gracias a la Imperiale 400. Un motor monocilíndrico refrigerado por aire de 4 tiempos. Una potencia de 21,1 Hp @ 5500 rpm, haciendo que la conducción sea suave. Sus ruedas compuestas por llantas de radios de 19 delante y 18 detrás, generan una sensación de manejo tranquila y cómoda.',
       price: '20.990.000',
       engine: '4 Tiempos, monocilindrico de 2 válvulas',
       cylinder: '374 cc',
@@ -406,6 +435,8 @@ export default {
       line: 'BENELLI',
       url_image: 'https://i.ibb.co/p4D5CF4/altagama4.png',
       name: 'BENELLI LEONCINO 500',
+      description:
+        'El nombre de “Leoncino” es el homenaje a una leyenda del motociclismo italiano que ha hecho historia en Benelli. La Leoncino no es sólo un nuevo modelo, sino un concepto auténtico y puro, típicamente italiano. Su corazón está formado por el motor bicilíndrico de 500cc de cuatro tiempos y cuatro válvulas por cilindro, doble árbol de levas en cabeza (DOHC) refrigerado por líquido.',
       price: '31.499.0000',
       engine: 'Bicilíndrico, 4 tiempos, 8 válvulas DOHC',
       cylinder: '500 cc',
@@ -423,6 +454,7 @@ export default {
       line: 'KAWASAKI',
       url_image: 'https://i.ibb.co/2KvbR6m/deportiva4.png',
       name: 'NINJA 400',
+      description: 'Nacida para la calle inspirada para la pista.',
       price: '31.990.000',
       engine: '4 tiempos, bicilíndrico en paralelo',
       cylinder: '399 cc',
@@ -440,6 +472,8 @@ export default {
       line: 'KAWASAKI',
       url_image: 'https://i.ibb.co/vBbqQd0/altagama6.png',
       name: 'Z400',
+      description:
+        'CREADA PARA SER VISTA La ‘nueva escuela’ recibe un nuevo contendiente con la llegada de la ligera motocicleta Kawasaki Z400 ABS. Feroz al descubierto, la Z400 ABS irradia un estilo callejero fresco y se reconoce fácilmente entre la multitud con su chasis compacto y su estilo agresivo. Cómoda, equilibrada y capacitada, la nueva Z400 ABS ofrece una experiencia de conducción emocionante que, sin duda, captará miradas.',
       price: '31.990.000',
       engine: 'Bicilíndrico, 4 tiempos, 8 válvulas DOHC',
       cylinder: '500 cc',

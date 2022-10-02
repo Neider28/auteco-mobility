@@ -8,6 +8,7 @@ import '../css/Motorcycle.css';
 const Motorcycle = ({
   line,
   url_image,
+  description,
   name,
   price,
   motor,
@@ -27,8 +28,11 @@ const Motorcycle = ({
 
   const handleDetail = () => {
     navigate('/motos/detalle-moto');
+    window.scrollTo(0, 0);
     setShowDetail({
       name: name,
+      url_image: url_image,
+      description: description,
       price: price,
       motor: motor,
       cil: cil,

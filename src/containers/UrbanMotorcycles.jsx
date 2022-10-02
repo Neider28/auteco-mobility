@@ -18,6 +18,7 @@ const UrbanMotorcycles = () => {
           <Motorcycle
             key={item.name}
             line={item.line}
+            description={item.description}
             url_image={item.url_image}
             name={item.name}
             price={item.price}

@@ -1,9 +1,11 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { AppContext } from '../context/AppContext.js';
 import '../css/Detail.css';
 
 const Detail = () => {
   const { showDetail } = React.useContext(AppContext);
+  const navigate = useNavigate();
 
   return (
     <div className="Detail-container">
@@ -14,10 +16,18 @@ const Detail = () => {
         </figure>
       )}
       <div className="Detail-general">
+        <img src={showDetail.url_image} alt={showDetail.name} />
         <h2>{showDetail.name}</h2>
         <p>{showDetail.description}</p>
         <span>$ {showDetail.price}</span>
-        <button>Calcula tu cuota de crédito aquí</button>
+        <button
+          onClick={() => {
+            navigate('/credito');
+            window.scrollTo(0, 0);
+          }}
+        >
+          Calcula tu cuota de crédito aquí
+        </button>
       </div>
       {showDetail.img2 != null && (
         <figure className="Moto-img2">
